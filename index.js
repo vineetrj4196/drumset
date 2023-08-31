@@ -12,6 +12,7 @@ switch(btn){
         console.log("w")
         break;
         case 'a':var audio=new Audio("sounds/tom-2.mp3")
+        audio.play();
         console.log("a")
         break;
         case 's':var audio=new Audio("sounds/tom-3.mp3")
@@ -19,9 +20,11 @@ switch(btn){
         console.log("s")
         break;
         case 'd':var audio=new Audio("sounds/tom-4.mp3")
+        audio.play();
         console.log("d")
         break;
         case 'j':var audio=new Audio("sounds/crash.mp3")
+        audio.play();
         console.log("j")
         break;
         case 'k':var audio=new Audio("sounds/kick-bass.mp3")
@@ -30,6 +33,7 @@ switch(btn){
         break;
         case 'l':var audio=new Audio("sounds/snare.mp3")
         console.log("l")
+        audio.play();
         break;
        
 }
@@ -52,8 +56,10 @@ switch(key){
     break;
     case 'd':var audio=new Audio("sounds/tom-4.mp3")
     console.log("d")
+    audio.play();
     break;
     case 'j':var audio=new Audio("sounds/crash.mp3")
+    audio.play();
     console.log("j")
     break;
     case 'k':var audio=new Audio("sounds/kick-bass.mp3")
@@ -61,6 +67,7 @@ switch(key){
     console.log("k")
     break;
     case 'l':var audio=new Audio("sounds/snare.mp3")
+    audio.play();
     console.log("l")
     break;
     default:console.log(e.key)
